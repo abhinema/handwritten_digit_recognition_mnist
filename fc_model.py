@@ -92,6 +92,9 @@ def train(model, trainloader, testloader, criterion, optimizer, device, epochs=5
 
     steps = 0
     running_loss = 0
+    
+    model.to(device)
+        
     for e in range(epochs):
         # Model in training mode, dropout is on
         model.train()

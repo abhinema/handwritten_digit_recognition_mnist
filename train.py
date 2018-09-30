@@ -51,7 +51,9 @@ def main():
     torch.manual_seed(args.seed)
 
     device = torch.device("cuda" if use_cuda else "cpu")
-
+    devname = "cuda" if use_cuda else "cpu"    
+    print("\n\n----------------\nDevice Used to process:",devname)
+    
     kwargs = {'num_workers': 1, 'pin_memory': True} if use_cuda else {}
 
 
@@ -71,8 +73,8 @@ def main():
     if os.path.isfile(cwd):
         print("File is already present")
     else:
-        print("\n\n----------------\nFile is not present...creating one with name:{}\n----------------\n\n".format(cwd))
-        model = fc_model.Network(784, 10, [800])
+        print("\n----------------\nFile is not present...creating one with name:{}\n----------------\n\n".format(cwd))
+        model = fc_model.Network(784, 10)
         criterion = nn.NLLLoss()
         optimizer = optim.Adam(model.parameters(), lr=0.001)
         #Train and validation
@@ -89,6 +91,7 @@ def main():
         torch.save(checkpoint, args.checkpoint)
 
     model1 = load_checkpoint(args.checkpoint)
+    model1.to(device)
     print("\n\nloaded model\n\n", model1)
 
 
@@ -114,8 +117,6 @@ def main():
 
     print(ps)
     print(equality)
-    # Plot the image and probabilities
-#    helper.view_classify(img.view(1, 28, 28), ps, version='Fashion')
 
 if __name__ == '__main__':
     main()
