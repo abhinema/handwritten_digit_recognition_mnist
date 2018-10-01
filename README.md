@@ -14,10 +14,10 @@ conda create --name <env> --file requirments.txt
 python train.py --no-cuda (use CPU) --epochs=<Number> --checkpoint=<checkpoint_file_name.pth> 
 
 Example: 
-To use GPU 
+To use GPU:
 python train.py  --epochs=10 --checkpoint=./sample_checkpoint_model_epoch10.pth
 
-To use CPU 
+To use CPU: 
 python train.py  --epochs=10 --checkpoint=./sample_checkpoint_model_epoch10.pth --no-cuda
   
 ### 2. predict.py
