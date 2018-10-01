@@ -26,10 +26,10 @@ python predict.py --input=image=<Input Image Name with path> --checkpoint=<check
 Example:
 python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch10.pth
 
-### Input Image File
+## Input Image File
 ![alt text](test_fonts.png)
 
 
-### Output File
+## Output File
 ![alt text](output.png)
 
