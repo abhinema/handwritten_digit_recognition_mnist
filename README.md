@@ -1,4 +1,4 @@
-# handwritten_digit_recognition_mnist
+# Handwritten Digit Recognition using MNIST database
 
 handwritten digit recognition using mnist data base for training.
 
