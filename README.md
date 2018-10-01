@@ -3,7 +3,7 @@
 handwritten digit recognition using mnist data base for training.
 
 ### Prerequisites
-Handwritten digit recignition project work done on Ubuntu 18.04 with anaconda package installed.
+Handwritten digit recognition project work done on Ubuntu 18.04 with anaconda package installed.
 
 ### Installing
 To install dependencies in anaconda envirnment, please use below command: 
