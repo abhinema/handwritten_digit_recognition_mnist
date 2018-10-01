@@ -10,7 +10,7 @@ To install dependencies in anaconda envirnment, please use below command:
 conda create --name <env> --file requirments.txt
 
 ## Running the tests
-###1. How to use train.py (This will generate checkpoint model file)
+### 1. How to use train.py (This will generate checkpoint model file)
 python train.py --no-cuda (use CPU) --epochs=<Number> --checkpoint=<checkpoint_file_name.pth> 
 
 Example: 
@@ -20,7 +20,7 @@ python train.py  --epochs=10 --checkpoint=./sample_checkpoint_model_epoch10.pth
 To use CPU 
 python train.py  --epochs=10 --checkpoint=./sample_checkpoint_model_epoch10.pth --no-cuda
   
-###2. predict.py
+### 2. predict.py
 python predict.py --input=image=<Input Image Name with path> --checkpoint=<checkpoint_file_name.pth> 
   
 Example:
