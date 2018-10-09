@@ -51,11 +51,12 @@ python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sampl
 
 ## Output File
 ![alt text](output_e1.jpg)
-
+Here 7 is predicted as 3. let try with higher epochs model file.
 
 ## Output with model file with 10 epochs
 python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch10.pth
 
 ## Output File
 ![alt text](output.png)
+Here 7 is predicted as 7.
 
