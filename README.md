@@ -40,14 +40,21 @@ python train.py  --epochs=10 --checkpoint=./sample_checkpoint_model_epoch10.pth 
   
 ### 2. predict.py
 python predict.py --input=image=<Input Image Name with path> --checkpoint=<checkpoint_file_name.pth> 
-  
-Example:
-
-python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch10.pth
 
 ## Input Image File
 ![alt text](test_fonts.png)
+  
+  
+Example:
+## Output with model file with 1 epochs
+python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch1.pth
 
+## Output File
+![alt text](output_e1.png)
+
+
+## Output with model file with 10 epochs
+python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch10.pth
 
 ## Output File
 ![alt text](output.png)
