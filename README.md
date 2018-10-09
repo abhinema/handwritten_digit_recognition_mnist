@@ -10,11 +10,16 @@ handwritten digit recognition using mnist data base for training.
 
 ## Install components
 1. To install pytorch:
+
 conda install pytorch torchvision -c pytorch
+
 2. To install cv2:
+
 conda install -c conda-forge opencv
 conda install -c conda-forge/label/broken opencv 
+
 3. To install matplotlib
+
 conda install -c conda-forge matplotlib
 conda install -c conda-forge/label/broken matplotlib
 conda install -c conda-forge/label/testing matplotlib
@@ -51,12 +56,15 @@ python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sampl
 
 ## Output File
 ![alt text](output_e1.jpg)
-Here 7 is predicted as 3. let try with higher epochs model file.
+
+
 
 ## Output with model file with 10 epochs
+in above output 7 is predicted as 3. lets try with higher epochs model file.
+
 python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch10.pth
 
 ## Output File
 ![alt text](output.png)
-Here 7 is predicted as 7.
 
+Here 7 is predicted as 7.
