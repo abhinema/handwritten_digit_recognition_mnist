@@ -50,7 +50,7 @@ Example:
 python predict_UserImages.py --input-image=./test_fonts.png --checkpoint=./sample_checkpoint_model_epoch1.pth
 
 ## Output File
-![alt text](output_e1.png)
+![alt text](output_e1.jpg)
 
 
 ## Output with model file with 10 epochs
