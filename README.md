@@ -7,8 +7,23 @@ handwritten digit recognition using mnist data base for training.
 2. Images used for prediction are generated with white background and black font, refer test_fonts.png. In program images converted to iinverted colour for further processing.
 
 ### Installing
+
+## Install components
+1. To install pytorch:
+conda install pytorch torchvision -c pytorch
+2. To install cv2:
+conda install -c conda-forge opencv
+conda install -c conda-forge/label/broken opencv 
+3. To install matplotlib
+conda install -c conda-forge matplotlib
+conda install -c conda-forge/label/broken matplotlib
+conda install -c conda-forge/label/testing matplotlib
+conda install -c conda-forge/label/rc matplotlib   
+
+## OR use below:
 To install dependencies in anaconda envirnment, please use below command: 
 conda create --name <env> --file requirments.txt
+
 
 ## Running the tests
 ### 1. How to use train.py (This will generate checkpoint model file)
