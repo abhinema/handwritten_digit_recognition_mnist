@@ -1,10 +1,10 @@
-# Handwritten Digit Recognition using MNIST database
+# Handwritten Digit Recognition using PyTorch & MNIST database
 
 handwritten digit recognition using mnist data base for training.
 
 ### Prerequisites
 1. Handwritten digit recognition project work done on Ubuntu 18.04 with anaconda package installed.
-2. Images used for prediction are generated with white background and black font, refer test_fonts.png. In program images converted to iinverted colour for further processing.
+2. Images used for prediction are generated with white background and black font, refer test_fonts.png. In program images converted to inverted colour for further processing.
 
 ### Installing
 
