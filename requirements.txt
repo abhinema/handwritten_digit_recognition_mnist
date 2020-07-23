@@ -54,7 +54,7 @@ olefile=0.46=py37_0
 opencv=3.4.2=py37h6fd60c2_1
 openssl=1.0.2p=h470a237_0
 pcre=8.42=h439df22_0
-pillow=6.2.0=py37heded4f4_0
+pillow=6.2.2
 pip=10.0.1=py37_0
 pixman=0.34.0=h470a237_3
 pthread-stubs=0.4=h470a237_1
